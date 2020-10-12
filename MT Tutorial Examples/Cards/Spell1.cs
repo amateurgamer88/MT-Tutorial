@@ -12,7 +12,8 @@ namespace MT_Tutorial_Examples.Cards
     {
 
         //unique ID (GUID can make this unique from other same name cards)
-        public static string ID = TestPlugin.GUID + "Spell 1";
+        public static string ID = TestPlugin.GUID + "Spell_1",
+        CardID = Spell1.ID,
 
         public static void Make()
         {
